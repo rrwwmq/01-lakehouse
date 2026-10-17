@@ -1,0 +1,1 @@
+SELECT snapshot_id, committed_at, operation FROM lakekeeper.silver."part_supplier$snapshots" ORDER BY committed_at;
